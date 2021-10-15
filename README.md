@@ -10,20 +10,22 @@ Say hi to the world in any language of your choice!
 
 Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easily win a T-Shirt just by making 4 pull requests in the month of October to any open source projects on Github.
 
-Steps to follow 📜
-1. Register for Hacktoberfest
+# Steps to follow 📜
+# 1. Register for Hacktoberfest
 https://hacktoberfest.digitalocean.com/
 
-2. Fork it 🍴
+# 2. Fork it 🍴
 You can get your own fork/copy of Hacktoberfest by using the Fork button.
+![68747470733a2f2f68656c702e6769746875622e636f6d2f6173736574732f696d616765732f68656c702f7265706f7369746f72792f666f726b5f627574746f6e2e6a7067](https://user-images.githubusercontent.com/77092646/137417962-96c76ff4-d4d9-435c-b891-e7382fe177b6.jpeg)
 
-3. Add a Program in any Language you like 🐇
+
+# 3. Add a Program in any Language you like 🐇
 Once you have forked the repo, add your progam in the language folder in main branch, if there is no language folder, make one, then add into it. You can take a look to the Programming Language List in Wikipedia to create a new one for Hacktoberfest!
 
-4. Ready, Steady, Go... 🐢 🐇
+# 4. Ready, Steady, Go... 🐢 🐇
 Once you have completed these steps, you are ready to start contributing by checking our Help Wanted issues and creating pull requests.
 
-5. Give this Project a Star ⭐
+# 5. Give this Project a Star ⭐
 If you liked working on this repo, please share this repo as much as you can and star this repo to help as many people in opensource as you can.
 
 Steps to Make Changes and contribute using GIT!
@@ -40,7 +42,7 @@ You can alternatively copy the URL by using the green “Clone or download” bu
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 
 git clone https://github.com/your-username/Hacktoberfest.git
-4. Create a New Branch
+# 4. Create a New Branch
 To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
 
 cd Hacktoberfest
@@ -78,12 +80,12 @@ At this point you can use the git push command to push the changes to the curren
 Example:
 
 git push --set-upstream origin new-branch
-5. Update Local Repository
+# 5. Update Local Repository
 While you are working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the code base updated, you’ll need to sync changes.
 
 We’ll first go over configuring a remote for the fork, then syncing the fork.
 
-6. Configure a Remote for the Fork
+# 6. Configure a Remote for the Fork
 Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. You’ll have to do this with the git remote add command.
 
 git remote add upstream https://github.com/shivaylamba/Hacktoberfest.git
@@ -101,13 +103,14 @@ git checkout master
 You’ll now have to merge any changes that were made in the original repository’s master branch, that you will access through your local upstream/master branch, with your local master branch:
 
 git merge upstream/master
-8. Create Pull Request
+# 8. Create Pull Request
 At this point, you are ready to make a pull request to the original repository.
 
 You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 
 Hurray!! You just got closer to complete your hacktoberfest challenge.
-You can add references to some cool open source projects below:
+
+# You can add references to some cool open source projects below:
 
 1. Zulip -
 Zulip is 100% open source software, built by a vibrant community of hundreds of developers from all around the world.
