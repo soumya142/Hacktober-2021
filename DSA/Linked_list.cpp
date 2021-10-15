@@ -68,15 +68,22 @@ int main()
     cin >>z;
   singlylinkedlist s1;
   singlylinkedlist s2;
+    singlylinkedlist s3;
   s1.append(1);
   s1.prepend(2);
   s1.append(3);
   s2.append(4);
   s2.append(5);
   s2.append(6);
+    s3.append(7);
+    s3.append(8);
+    s3.append(9);
+    
   s1.prepend(z);
   s1.show();
   cout<<endl;
   s2.show();
+cout<<endl;
+  s3.show();
 
 }
